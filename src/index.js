@@ -54,7 +54,7 @@ const EventExamples = () => {
       <input type="text" name="example" onChange={handleFormInput} style={{margin: '1rem 0'}} />
     </form>
     <button onClick={handleButtonClick}>click me</button>
-  </section>;
+  </section>
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
